@@ -9,8 +9,4 @@ He cambiado el tipo de letra por una San Francisco Mono. También he aumentado e
 En el lado izquierdo he sustituido el script que mostraba si KWM estaba en funcionamiento. En su lugar he añadio el script del [widget](https://github.com/felixhageloh/uebersicht-widgets/tree/master/Spotify-Current-Track) que muestra la canción de Spotify que estas escuchando en ese momento.
 
 ##Oscuro
-![Pantallazo Oscuro](https://github.com/jorgeatgu/nerdbar.widget/blob/master/pantallazo-oscuro.png)
-
-
-##Claro
-![Pantallazo Blanco](https://github.com/jorgeatgu/nerdbar.widget/blob/master/pantallazo-blanco.png)
+![Pantallazo Oscuro](https://github.com/jorgeatgu/nerbard-widget/blob/master/walllpaper.png)
