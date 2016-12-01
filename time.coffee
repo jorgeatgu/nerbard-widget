@@ -4,9 +4,9 @@ refreshFrequency: 10000 # ms
 
 render: (output) ->
   """
-  <svg style="display: inline-block; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="20" height="20" viewBox="0 0 20 20">
-    <path fill="#468588" d="M10,0.2c-5.4,0-9.8,4.4-9.8,9.8s4.4,9.8,9.8,9.8s9.8-4.4,9.8-9.8S15.4,0.2,10,0.2z M10,19.2 c-5,0-9.1-4.1-9.1-9.1S5,0.9,10,0.9S19.2,5,19.2,10S15.1,19.2,10,19.2z"/>
-    <path fill="#468588" d="M10,2.2c-0.2,0-0.3,0.1-0.3,0.3V10H4.8c-0.2,0-0.3,0.1-0.3,0.3c0,0.2,0.1,0.3,0.3,0.3H10 c0.2,0,0.3-0.1,0.3-0.3V2.5C10.4,2.4,10.2,2.2,10,2.2z"/>
+  <svg style="display: inline-block; vertical-align: middle;" fill="#468588" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="none"/>
+      <path d="M15 1H9v2h6V1zm-4 13h2V8h-2v6zm8.03-6.61l1.42-1.42c-.43-.51-.9-.99-1.41-1.41l-1.42 1.42C16.07 4.74 14.12 4 12 4c-4.97 0-9 4.03-9 9s4.02 9 9 9 9-4.03 9-9c0-2.12-.74-4.07-1.97-5.61zM12 20c-3.87 0-7-3.13-7-7s3.13-7 7-7 7 3.13 7 7-3.13 7-7 7z"/>
   </svg>
 
   #{output}

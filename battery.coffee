@@ -4,8 +4,9 @@ refreshFrequency: 150000 # ms
 
 render: (output) ->
   """
-  <svg style="display: inline-block; vertical-align: middle;" xmlns="http://www.w3.org/2000/svg" width="16.3" height="8.4" viewBox="0 0 16.3 8.4">
-  <path fill="#FABD32" d="M14.9,0H0v8.4h14.9V6.1h1.4V2.2h-1.4V0z M13.5,7H1.4V1.4h12.1V7z M4.1,6H2.4V2.3h1.7V6z M6.9,6H5.2V2.3h1.7V6zM9.7,6H8V2.3h1.7V6z"/>
+  <svg style="display: inline-block; vertical-align: middle;" fill="#FABD32" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
+      <path d="M0 0h24v24H0z" fill="none"/>
+      <path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z"/>
   </svg>
   #{output}
   """
@@ -14,7 +15,7 @@ style: """
   -webkit-font-smoothing: antialiased
   font: 14px SF Mono
   top: 11px
-  right: 225px
+  right: 230px
   color: #FABD2F
   span
     color: #9C9486
