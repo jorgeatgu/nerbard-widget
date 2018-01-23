@@ -49,7 +49,7 @@ render: (output) ->
 
 style: """
   -webkit-font-smoothing: antialiased
-  color: #D6E7EE
+  color: #D5C4A1
   font: 14px SF Mono
   height: 25px
   left: 10px
