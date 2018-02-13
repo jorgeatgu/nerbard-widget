@@ -8,6 +8,6 @@ style: """
   left: 0
   height: 40px
   width: 100%
-  background-color: #0C0E0D
+  background-color: transparent
   z-index: -1
 """
