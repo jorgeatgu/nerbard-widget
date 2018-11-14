@@ -1,23 +1,21 @@
-command: "ESC=`printf \"\e\"`; ps -A -o %mem | awk '{s+=$1} END {print \"\" s}'"
+command: "/System/Library/PrivateFrameworks/Apple80211.framework/" +
+              "Versions/Current/Resources/airport -I | " +
+              "sed -e \"s/^ *SSID: //p\" -e d"
 
 refreshFrequency: 30000 # ms
 
 render: (output) ->
   """
-  <svg style="display: inline-block; vertical-align: middle;" fill="#f1e6cf" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zM9 17H7v-7h2v7zm4 0h-2V7h2v10zm4 0h-2v-4h2v4z"/>
-      <path d="M0 0h24v24H0z" fill="none"/>
-  </svg>
   <span>#{output}</span>
   """
 
 style: """
   -webkit-font-smoothing: antialiased
   color: #f1e6cf
-  font: 14px SF Mono
-  font-weight: bold
-  right: 300px
-  top: 10px
+  font: 12px SF Mono
+  right: 230px
+  top: 13px
+  display: block
   span
     color: #f1e6cf
 """

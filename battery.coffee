@@ -4,20 +4,15 @@ refreshFrequency: 150000 # ms
 
 render: (output) ->
   """
-  <svg style="display: inline-block; vertical-align: middle;" fill="#f1e6cf" height="24" viewBox="0 0 24 24" width="24" xmlns="http://www.w3.org/2000/svg">
-      <path d="M0 0h24v24H0z" fill="none"/>
-      <path d="M15.67 4H14V2h-4v2H8.33C7.6 4 7 4.6 7 5.33v15.33C7 21.4 7.6 22 8.33 22h7.33c.74 0 1.34-.6 1.34-1.33V5.33C17 4.6 16.4 4 15.67 4zM11 20v-5.5H9L13 7v5.5h2L11 20z"/>
-  </svg>
   #{output}
   """
 
 style: """
   -webkit-font-smoothing: antialiased
-  font: 14px SF Mono
-  font-weight: bold
-  top: 11px
-  right: 230px
-  color: #f1e6cf
+  font: 12px SF Mono
+  top: 14px
+  right: 180px
+  color: #D0C5BF
   span
-    color: #f1e6cf
+    color: #D0C5BF
 """
